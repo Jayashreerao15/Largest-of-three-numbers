@@ -19,11 +19,11 @@ Use else condition to display that third variable is largest among all the varia
 stop
 
 ## Program:
-```
+```python
 using System;
 namespace largestnum
 {
-    class Program
+    class Jay
     {
         static void Main(string[] args)
         {
