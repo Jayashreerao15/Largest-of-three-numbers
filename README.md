@@ -1,8 +1,10 @@
 # Largest-of-three-numbers
+
 ## Aim:
 To write a C# program to find the largest of three numbers
 
 ## Algorithm:
+
 ### Step1: 
 Start
 ### Step2:
@@ -17,8 +19,47 @@ Use else condition to display that third variable is largest among all the varia
 stop
 
 ## Program:
+```
+using System;
+namespace largestnum
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1, num2, num3;
+            
+            num1 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToInt32(Console.ReadLine());
+            num3 = Convert.ToInt32(Console.ReadLine());
+            
+            if(num1 > num2 && num1 > num3)
+            {
+                Console.WriteLine("The Largest Number is " + (num1));
+                
+            }
+            
+            else if(num2 > num1 && num2 > num3)
+            {
+                Console.WriteLine("The Largest Number is " + (num2));
+                
+            }
+            else
+            {
+                Console.WriteLine("The Largest Number is " +(num3));
+                
+            }
+            
+        }
+        
+    }
+    
+}
 
+```
 ## Output:
+
+![image](https://user-images.githubusercontent.com/74660507/187962514-ca9280fd-ccca-4e45-af48-e9624157be44.png)
 
 ## Result:
 Thus the C# program to find the largest of three numbers is executed successfully
